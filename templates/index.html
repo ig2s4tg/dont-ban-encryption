@@ -1,19 +1,26 @@
 {% extends "base.html" %}
-{% block title %}Index{% endblock %}
 {% block head %}
 {{ super() }}
 
 {% endblock %}
 {% block content %}
-{% if session["name"] %}
-<h2>
-Hi, {{session["name"]}}! <br>
-</h2>
-<a href="/logout">forget me</a>
-{% else %}
-<form action="" method="post" name="index">
-{{form.name(placeholder="Sample Name")}}
-<input type="submit" value="Submit">
-</form>
-{% endif %}
+
+<p>
+stuff other stuff asdfasdfdsfasdfasdf sdf asdf asd fa sdfa sdfasdfasdfasdfasdf
+adfasd fa sdf asd fas df asdf a sdf asd fas dfa dsf as df asdf asd fa sdf as df
+ asd fa sdf asf s dfa sdf a sdf asd f f f f f f  ads f asdf asd fa sdfa sdf 
+</p>
+
+<p>
+stuff
+</p>
+
+<p>
+stuff
+</p>
+
+<p>
+stuff
+</p>
+
 {% endblock %}
