@@ -1,7 +1,6 @@
 body            { font-family: sans-serif;
                   text-align: center;
                   color: #111;
-
                   background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png");
                   background-attachment: fixed;
 }
@@ -11,26 +10,25 @@ h1, h3, h4      { color: #5B9FE3;
                 }
 
 
-h1              {
-                  font-size: 6em; margin: 20px;
-                  margin-bottom: 5px;
+h1              { font-size: 8em; margin: 20px;
+                  margin: 10% 0px 4% 0px;
                 }
 
-h3              { font-size: 3.3em;
-                  margin: 5px;
+h3              { font-size: 5em;
+                  margin: 0% 0px 10% 0px;
                 }
 
 h4              { color: #80E8B9;
-                  font-size: 30px;
+                  font-size: 60px;
                   padding-left: 40px;
                 }
 
 #content        { margin: 5% 10% 10% 10%;
                   padding: 20px 20px 20px 20px;
                   background: #FFF;
-                  border-radius: 20px; height:100%;
+                  border-radius: 10px; height:100%;
                   font-family: 'Open Sans', sans-serif;
-                  font-size: 20px;
+                  font-size: 40px;
                   color: #222;
                   text-align: left;
                 }
@@ -41,26 +39,26 @@ p               { text-align: left;
 
 .handwritten    { text-align: center;
                   font-family: 'Schoolbell', sans-serif;
-                  font-size: 40px;
+                  font-size: 60px;
                 }
 
 img             { text-align: center;
                   align-items: center;
                   float: none;
-                  width: 40%;
-                  margin: 0% 30% 20px 30%;
+                  width: 80%;
+                  margin: 0% 10% 20px 10%;
 
                 }
 
 .quote          { font-family: 'Lora', serif;
                   color: #111;
-                  font-size: 25px;
-                  margin: 40px 80px 10px 80px;
-                  padding-top: 30px;
+                  font-size: 45px;
+                  margin: 30px 20px 80px 20px;
+                  padding: 50px 30px 80px 30px;
                   background: #E3EFFB;
                   border-radius: 30px;
                 }
 
 .attrib         { float: right;
-                  font-size: 20px;
+                  font-size: 40px;
                 }

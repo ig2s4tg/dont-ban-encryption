@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Bootstrap -->
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+      <!-- fonts -->
+<link href='https://fonts.googleapis.com/css?family=VT323|Open+Sans|Share+Tech+Mono|Lora|Schoolbell' rel='stylesheet' type='text/css'>
+      <!-- style -->
+      <link rel="stylesheet" type="text/css" href="/static/css/style_mobile.css">
+
+      <!-- analytics -->
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-77048547-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+
+      <script>
+      var updated_t = Array(25);
+      for (var i = 0; i < updated_t.length; i++) {updated_t = 5;}
+      var updated_s = Array(34);
+      for (var i = 0; i < updated_s.length; i++) {updated_s = 0;}
+      var title_elem = document.getElementById("title");
+      var sub_elem = document.getElementById("subtitle");
+
+      var goal_t = "WHAT ENCRYPTION REALLY IS";
+      var goal_t = "And Why We Shouldn't Try To Ban It";
+
+
+      function randomChar() {
+        var mask = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_+-={}[]:";\'<>?,./|\\';
+        return mask[Math.floor(Math.random() * mask.length)];
+      };
+
+      function scramble() {
+        for (var i = 0; i < updated_t.length; i++) {
+          console.log(updated_t[i]);
+        }
+
+
+      };
+
+      $(document).ready(function(){
+        setInterval(function(){ scramble() }, 500);
+
+      });
+
+
+
+
+      </script>
+
+      {% block head %}
+      <title>{% block title %}{% endblock %} Don't Ban Encryption</title>
+
+
+        {% endblock %}
+    </head>
+
+
+    <body>
+        <h1><div id="title">What Encryption<br> Really Is</div></h1>
+        <h3><div id="subtitle">And Why We Shouldn't<br> Try To Ban It</div></h3>
+        <div id="content" class="container-fluid">
+            {% block content %}{% endblock %}
+        </div>
+        </div>
+    </body>
+
+</html>
