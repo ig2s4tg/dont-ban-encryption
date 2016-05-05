@@ -1,17 +1,64 @@
-body            { font-family: sans-serif; background: #555;
-                  text-align: center; color: #111;}
-h1, h3          { color: #5FDE8E; }
-h1, h3          { font-family: 'Slabo 13px', serif; }
-h1              { font-size: 6em; margin: 20px; margin-bottom: 5px;}
-h3              { font-size: 4em; margin: 5px;}
+body            { font-family: sans-serif;
+                  text-align: center;
+                  color: #111;
+                  background: #010;
+                  background: -webkit-radial-gradient(#AAA, #010); /* Safari 5.1 to 6.0 */
+                  background: -o-radial-gradient(#AAA, #010); /* For Opera 11.6 to 12.0 */
+                  background: -moz-radial-gradient(#AAA, #010); /* For Firefox 3.6 to 15 */
+                  background: radial-gradient(#AAA, #010); /* Standard syntax */
+}
 
-h3              { font-size: 4em; margin: 5px;}
+h1, h3, h4      { color: #3A3;
+                  font-family: 'Lora', serif;
+                }
 
-#content        {margin: 5% 15% 10% 15%;
-                padding: 20px 20px 20px 20px;
-                background: #EEE;
-                border-radius: 20px; height:100%;
-                font-family: 'Open Sans', sans-serif;
-                font-size: 20px;}
 
-p               {text-align: left;}
+h1              { font-size: 6em; margin: 20px;
+                  margin-bottom: 5px;
+                }
+
+h3              { font-size: 3.3em;
+                  margin: 5px;
+                }
+
+h4              { font-size: 30px;
+                  padding-left: 40px;
+                }
+
+#content        { margin: 5% 10% 10% 10%;
+                  padding: 20px 20px 20px 20px;
+                  background: #EEE;
+                  border-radius: 20px; height:100%;
+                  font-family: 'Open Sans', sans-serif;
+                  font-size: 20px;
+                  color: #222;
+                  text-align: left;
+                }
+
+p               { text-align: left;
+                  padding: 5px 40px 50px 40px;
+                }
+
+.handwritten    { text-align: center;
+                  font-family: 'Schoolbell', sans-serif;
+                  font-size: 40px;
+                }
+
+img             { height: 45%;
+                  width: 50%;
+                }
+
+.quote          { font-family: 'Lora', serif;
+                  color: #111;
+                  font-size: 25px;
+                  margin: 30px 80px 10px 80px;
+                  background: #EEE;
+                  background: -webkit-radial-gradient(#BEB, #EEE); /* Safari 5.1 to 6.0 */
+                  background: -o-radial-gradient(#BEB, #EEE); /* For Opera 11.6 to 12.0 */
+                  background: -moz-radial-gradient(#BEB, #EEE); /* For Firefox 3.6 to 15 */
+                  background: radial-gradient(#CCE, #EEE); /* Standard syntax */
+                }
+
+.attrib         { float: right;
+                  font-size: 20px;
+                }
