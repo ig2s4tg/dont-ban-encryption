@@ -10,12 +10,15 @@ h1, h3, h4      { color: #5B9FE3;
                 }
 
 
-h1              { font-size: 8em; margin: 20px;
+h1              { font-size: 8em;
+                  
                   margin: 10% 0px 4% 0px;
+                  padding: 10px 0px 0px 0px;
                 }
 
 h3              { font-size: 5em;
                   margin: 0% 0px 10% 0px;
+                  padding: 0px 0px 10px 0px;
                 }
 
 h4              { color: #80E8B9;
