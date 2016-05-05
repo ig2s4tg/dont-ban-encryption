@@ -4,7 +4,7 @@
       <!-- Bootstrap -->
       <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
       <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="https://code.jquery.com/jquery-latest.js"></script>
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
       <!-- fonts -->
@@ -22,40 +22,7 @@
         ga('send', 'pageview');
       </script>
 
-      <script>
-      var updated_t = Array(25);
-      for (var i = 0; i < updated_t.length; i++) {updated_t = 5;}
-      var updated_s = Array(34);
-      for (var i = 0; i < updated_s.length; i++) {updated_s = 0;}
-      var title_elem = document.getElementById("title");
-      var sub_elem = document.getElementById("subtitle");
 
-      var goal_t = "WHAT ENCRYPTION REALLY IS";
-      var goal_t = "And Why We Shouldn't Try To Ban It";
-
-
-      function randomChar() {
-        var mask = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_+-={}[]:";\'<>?,./|\\';
-        return mask[Math.floor(Math.random() * mask.length)];
-      };
-
-      function scramble() {
-        for (var i = 0; i < updated_t.length; i++) {
-          console.log(updated_t[i]);
-        }
-
-
-      };
-
-      $(document).ready(function(){
-        setInterval(function(){ scramble() }, 500);
-
-      });
-
-
-
-
-      </script>
 
       {% block head %}
       <title>{% block title %}{% endblock %} Don't Ban Encryption</title>
